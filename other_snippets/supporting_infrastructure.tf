@@ -16,7 +16,7 @@ locals {
             image_name          = var.default_image
             image_password      = var.default_password
             ssh_key_path        = [ var.default_ssh_key_path ]
-            user_data           = filebase64("files/cloud-init-jumpbox.txt")
+            user_data           = filebase64("files/filename.txt")
             lans                = [{
                 name            = "public"
                 ips             = [ ionoscloud_ipblock.addresses.ips[0] ]
