@@ -7,11 +7,11 @@ variable "datacenter_name" {
     }
 
     variable "default_image" {
-        default = "debian-11-genericcloud-amd64-20220328-962"
+        default = "................................"
     }
 
     variable "default_password" {
-        default = "blibbleFish19"
+        default = "................................."
     }
 
     variable "default_ssh_key_path" {
